@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>School schedule</h3>
+                <p>To help them to organise and become independent they organise their own school schedule students choose their own planning they decide what courses they do and how many hours they work.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>In our campus we can do Undergraduate studies ans Graduate studies on technology with famous profesional .</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p> Post graduation the school provide a lot of contact with big tech company .</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>Sleeping rooms</h3>
+                    <p>Our campus propose sleeping rooms in order to help students getting a better sleep schedule. </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Our sport rooms</h3>
+                    <p>The campus provide multiple sport rooms like a gym and a workout room.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>The cafeteria</h3>
+                    <p>students can eat vegetarian, gluten free and sugar free food if they want to.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Northbridge EC High School, we're passionate about preparing students for tomorrow's challenges. <br>
+        With a dynamic blend of technology and innovative teaching methods, we foster a community of lifelong learners and problem-solvers. <br>
+        Join us to explore the limitless possibilities of education in the digital era.</p>
+    <div class="icons">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+</section>  
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
